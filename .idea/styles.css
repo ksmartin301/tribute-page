@@ -1,0 +1,15 @@
+*{
+    background-color: azure;
+}
+page{
+    margin: 2px;
+    padding: 6px 2px;
+    background-color: blanchedalmond;
+    border-radius: 3px;
+}
+
+page[id="title"]{
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Bell MT", sans-serif;
+}
