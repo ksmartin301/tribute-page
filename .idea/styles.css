@@ -18,6 +18,7 @@ html{
     font-family: "Bell MT", sans-serif;
 
     overflow: hidden;
+    flex-wrap: nowrap;
 }
 
 .page > header > h1{
@@ -50,4 +51,25 @@ html{
     text-align: center;
     margin-bottom: -40px;
     font-size: 75px;
+}
+
+.timeline{
+    flex-wrap: wrap;
+    font-size: 80px;
+    margin: 0 25%;
+}
+
+.bold{
+    font-weight: 1000;
+    color: black;
+}
+
+.italic{
+    font-style: italic;
+    margin: -6px;
+    margin-top: 15px;
+}
+
+.timeline p{
+    color: grey;
 }
