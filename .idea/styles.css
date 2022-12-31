@@ -1,10 +1,10 @@
 html{
-    background-color: ghostwhite;
+    background-color: honeydew;
     font-family: "Bell MT", sans-serif;
 }
 .page{
-    margin: 0 auto;
-    padding: 75px;
+    margin: 0 5%;
+    padding: 50px;
     background-color: wheat;
     border-radius: 20px;
     width: 90%;
@@ -34,8 +34,8 @@ html{
 
 .image{
     text-align: center;
-    background-color: ghostwhite;
-    border-radius: 10px;
+    background-color: honeydew;
+    border-radius: 1000px;
     margin: 0 auto;
     padding: 50px 0;
     max-height: 90%;
@@ -56,19 +56,20 @@ html{
 .timeline{
     flex-wrap: wrap;
     font-size: 80px;
-    margin: 0 25%;
+    margin: 0 20%;
 }
 
 .bold{
-    font-weight: 1000;
+    font-weight: 800;
     color: black;
+    font-family: Arial;
 }
 
 .italic{
-    font-family: sans-serif;
     font-style: italic;
-    margin: -6px;
-    margin-top: 15px;
+    margin: -6px auto;
+    margin-top: 25px;
+    width: 50%;
 }
 
 .timeline p{
@@ -84,6 +85,10 @@ footer{
 footer > h3{
     color: grey;
     font-size: 120px;
+}
+footer > p{
+    color: grey;
+    font-size: 95px;
 }
 .link{
     color: grey;
