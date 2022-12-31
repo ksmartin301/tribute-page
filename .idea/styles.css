@@ -1,5 +1,6 @@
 html{
     background-color: ghostwhite;
+    font-family: "Bell MT", sans-serif;
 }
 .page{
     margin: 0 auto;
@@ -15,7 +16,6 @@ html{
     text-align: center;
     margin: 0 auto;
     padding-bottom: 25px;
-    font-family: "Bell MT", sans-serif;
 
     overflow: hidden;
     flex-wrap: nowrap;
@@ -65,6 +65,7 @@ html{
 }
 
 .italic{
+    font-family: sans-serif;
     font-style: italic;
     margin: -6px;
     margin-top: 15px;
@@ -72,4 +73,23 @@ html{
 
 .timeline p{
     color: grey;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: -10px;
+}
+footer > h3{
+    color: grey;
+    font-size: 120px;
+}
+.link{
+    color: grey;
+    text-decoration: none;
+}
+.link:hover, active{
+    color: ghostwhite;
+    text-decoration: none;
 }
